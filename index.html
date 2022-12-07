@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      console.log("Website Rumah Kucing")
+    </script>
+    <!-- navigasi -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">RumahKucing.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#staff">Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4 class="display-6">Selamat Datang di Website Kami</h4>
+        <h3 class="display-1">Rumah Kucing</h3>
+        <a href="#layanan">
+          <button type="button" class="btn btn-danger btn-lg">
+            Cek Layanan
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-3" id="layanan">Layanan</h2>
+        <p>
+          Pada website ini menyediakan 3 layanan 
+        </p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+            <h3 class="mt-3">Cek Kesehatan</h3>
+            <p>
+              Konsultasikan keluhan hewan anda kepada dokter hewan di website ini
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-palette fa-5x"></i></span>
+            <h3 class="mt-3">Pakan Hewan</h3>
+            <p>
+              Belilah pakkan hewan terlengkap dan berkualitas dengan harga murah 
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"
+              ><i class="fas fa-network-wired fa-5x"></i
+            ></span>
+            <h3 class="mt-3">Perlengkapan Peliharaan</h3>
+            <p>
+              Beberapa aksesori penting yang wajib dimiliki sebelum memelihara kucing
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portofolio -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="portofolio">Portofolio</h2>
+        <p>
+          Rumah Kucing menyediakan berbagai makanan kucing yang berkualitas, pengecekan hewan, cafe kucing, grooming, penitipan dan vaksin untuk kucing.
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="petshop.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pakan Kucing Berkualitas</h5>
+                <p class="card-text">
+                  terdapat beberapa merk makanan kucing terbaru yang berkualitas
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="dokter.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cek Kesehatan.</h5>
+                <p class="card-text">
+                  Segera lakukan pemeriksaan kesehatan kucing anda kepada dokter hewan 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="cafe.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cafe Kucing.</h5>
+                <p class="card-text">
+                  cafe yang didalamnya terdapat banyak kucing yang dapat dipegang dan diajak main
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="grooming.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Grooming</h5>
+                <p class="card-text">
+                  Jagalah penampilan dan kesehatan kucing anda agar terhidar dari penyakit
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="penitipan.jpeg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Penitipan Kucing</h5>
+                <p class="card-text">
+                  Tempat penitipan kucing dengan fasilitas nyaman dan harga yang sangat terjangkau
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="vaksin.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vaksin Kucing</h5>
+                <p class="card-text">
+                  Vaksin Kucing dapat melindungi dari berbagai penyakit yang disebabkan bakteri atau virus
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tentang -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center" id="tentang">Tentang</h2>
+        <p class="text-center">
+          Rumah Kucing adalah website yang menyediakan berbagai layanan untuk kucing seperti cek kesehatan , grooming, penitipan, vaksin. 
+          Rumah Kucing ini bertujuan untuk mempermudah pelanggan agar lebih efisien dalam melakukan konsultasi yang menyangkut kucing serta dapat melakukan pemesanan makanan atau yang lainnya. 
+        </p>
+        <div class="clearfix pt-5">
+          <img
+            src="foto.jpg"
+            class="col-md-6 float-md-end mb-3 crop-img"
+            width="300"
+            height="300"
+          />
+          <p>
+            Rumah Kucing oni terdapat offline store yang beralamat di Jalan Suritno no. 24, Solo, Jawa Tengah
+          </p>
+          <p>
+            Rumah Kucing berdiri sejak tahun 2019 hingga kini. Rumah Kucing sudah bisa buka 24 jam 
+          </p>
+          <p>
+            Dokter hewan di rumah kucing sangatlah terpercaya dan berpengalaman jadi jangan ragu untuk datang ke toko kami
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- tim -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="staff">Dokter Hewan Kami</h2>
+        <p>
+          Segera Hubungi Dokter Hewan Kami yang sangat terpercaya  
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center tim">
+            <img
+              src="risma diana.jpg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Risma Diana</h4>
+            <p>Dokter Bedah</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="dokter2.jpg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Agus Sutarman</h4>
+            <p>Dokter Spesialis Tulang</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="dokter3.jpg"
+              class="rounded-circle mb-3"
+            />
+            <h4>Maulana Yusuf</h4>
+            <p>Dokter Umum</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Client -->
+    <div class="container-fluid client pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col">
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-256/microsoft-28-761688.png"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png"
+            />
+          </div>
+          <div class="col">
+            <img src="https://image.flaticon.com/icons/png/512/61/61109.png" />
+          </div>
+          <div class="col">
+            <img
+              src="https://i.pinimg.com/originals/20/1d/17/201d17590b3a7bc8939ca37e577bbbd8.png"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.ictmagazine.nl/wp-content/uploads/2020/10/ibm-720x340-1.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- kontak -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+      <div class="container">
+        <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+        <p class="text-center">
+          Segera hubungi kami jika anda ingin konsultasi atau melakukan pemesanan untuk makanan kucing  dan yang lainnya
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Nama"
+            />
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Email"
+            />
+            <input
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="No. Phone"
+            />
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg">
+            Kirim Pesan
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center pt-5 pb-5">
+      All Rights Reserved &copy; 2021
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
